@@ -38,13 +38,22 @@
         .text-loomee-yellow { color: var(--loomee-yellow); }
     </style>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-D1FX0KMXBN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-D1FX0KMXBN');
+</script>
 <body class="bg-gradient-to-br from-loomee-blue via-blue-100 to-loomee-yellow text-loomee-text-dark">
 
     <!-- 
       Main container
       max-w-2xl makes it comfortably narrow on desktop, 
       while p-4 gives space on mobile.
-    --><div class="max-w-2xl mx-auto p-4 sm:p-6">
+    --><div class="max-w-3xl mx-auto p-4 sm:p-6">
 
         <!-- Header / Hero Section --><header class="text-center my-8">
             <!-- 
@@ -54,10 +63,10 @@
                  alt="Loomee the Firefly" 
                  class="w-48 h-48 sm:w-56 sm:h-56 mx-auto rounded-full object-cover border-8 border-white shadow-2xl mb-6 transform -rotate-6 transition-transform hover:rotate-0 hover:scale-105">
 
-            <h1 class="text-4xl sm:text-5xl font-extrabold text-loomee-headline" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">
+            <h1 class="text-5xl sm:text-6xl font-extrabold text-loomee-headline" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">
                 Meet Loomee
             </h1>
-            <p class="text-lg sm:text-xl text-loomee-orange mt-2">
+            <p class="text-xl sm:text-2xl text-loomee-orange mt-2">
                 The friendly firefly that teaches kids about emotions and feelings.
             </p>
         </header>
@@ -65,11 +74,11 @@
         <!-- 
           Main content card
           Provides a clean, contained area for the information.
-        --><main class="bg-white rounded-2xl shadow-xl p-6 sm:p-10">
+        --><main class="bg-white rounded-2xl shadow-xl p-4 sm:p-8">
 
             <!-- Introductory Text Section --><section class="mb-8">
                 
-                <div class="space-y-4 text-base sm:text-lg text-loomee-text-dark leading-relaxed">
+                <div class="space-y-4 text-lg sm:text-xl text-loomee-text-dark leading-relaxed">
                     <p>
                         Parents and kids, get excited! <strong>Loomee</strong> is a curious little firefly on a big mission: to light up the world with kindness, laughter, and friendship.
                     </p>
@@ -80,7 +89,7 @@
             </section>
 
             <!-- Embedded Video Section --><section class="mb-8">
-                <h2 class="text-3xl font-bold text-loomee-headline mb-4">
+                <h2 class="text-3xl sm:text-4xl font-bold text-loomee-headline mb-4">
                     Watch the Sneak Peek below!
                 </h2>
                 <!-- 
@@ -101,11 +110,11 @@
                 </div>
             </section>
 
-            <!-- Call to Action (CTA) Section --><section class="text-center p-6 sm:p-8 rounded-xl border border-yellow-300 shadow-md">
-                <h3 class="text-2xl sm:text-3xl font-bold text-loomee-headline mb-3">
+            <!-- Call to Action (CTA) Section --><section class="text-center p-4 sm:p-6 rounded-xl border border-yellow-300 shadow-md">
+                <h3 class="text-3xl sm:text-4xl font-bold text-loomee-headline mb-3">
                     Don't Miss the Launch!
                 </h3>
-                <p class="text-lg text-loomee-text-dark mb-6">
+                <p class="text-lg sm:text-xl text-loomee-text-dark mb-6">
                     Be the first to know when Loomee's adventure begins. Subscribe to our official YouTube channel for updates, new videos, and more!
                 </p>
                 
@@ -116,7 +125,7 @@
                     href="https://www.youtube.com/@LoomeeTV" 
                     target="_blank" 
                     rel="noopener"
-                    class="inline-block bg-loomee-green text-white text-xl font-bold py-4 px-10 rounded-full shadow-lg transform transition-transform hover:scale-105 hover:bg-loomee-green-dark focus:outline-none focus:ring-4 focus:ring-lime-300">
+                    class="inline-block bg-loomee-green text-white text-xl sm:text-2xl font-bold py-4 px-10 rounded-full shadow-lg transform transition-transform hover:scale-105 hover:bg-loomee-green-dark focus:outline-none focus:ring-4 focus:ring-lime-300">
                     
                     <!-- Simple YouTube Icon --><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2 -mt-1" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0C.515 3.428.188 5.7.188 12s.327 8.572 3.829 8.816c3.6.245 11.626.246 15.23 0C23.485 20.572 23.812 18.3 23.812 12s-.327-8.572-4.197-8.816zM9.75 15.6V8.4l6.138 3.6-6.138 3.6z"/>
@@ -128,7 +137,7 @@
         </main>
 
         <!-- Footer --><footer class="text-center mt-8 mb-4">
-            <p class="text-sm text-gray-600">&copy; 2025 Loomee Firefly. All rights reserved.</p>
+            <p class="text-base text-gray-600">&copy; 2025 Loomee Firefly. All rights reserved.</p>
         </footer>
 
     </div>
