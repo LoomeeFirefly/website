@@ -76,11 +76,7 @@
             <img src="LoomeeLogo.png" 
                  alt="Loomee Firefly" 
                  class="w-full h-auto rounded-2xl shadow-xl mb-8 border-4 border-white object-cover">
-            <!--
-            <h1 class="text-5xl sm:text-6xl font-extrabold text-loomee-black" style="text-shadow: 2px 2px 0px #FCD137;">
-                Loomee
-            </h1>
-            -->
+            
             <p class="text-xl sm:text-2xl text-loomee-green font-bold mt-2">
                 The friendly firefly that teaches kids about emotions, feelings and character building, with a lot of laughter.
             </p>
@@ -107,7 +103,7 @@
 
             <!-- Embedded Video Section -->
             <section class="mb-8">
-                <div class="text-center mb-4">
+                <div class="text-center mb-8">
                     <a 
                         href="https://www.youtube.com/@LoomeeTV" 
                         target="_blank" 
@@ -121,27 +117,102 @@
                         Watch on YouTube
                     </a>
                 </div>
-                <!-- 
-                  Responsive 16:9 aspect ratio container.
-                -->
-                <div class="relative rounded-xl overflow-hidden shadow-lg border-4 border-loomee-yellow" style="padding-top: 56.25%;">
-                    <!-- 
-                       PLAYLIST EMBED:
-                       Replace 'PLxxxxxxxx' with your actual YouTube Playlist ID.
-                       You can find this ID in the URL of your playlist page (e.g., list=PL...).
-                    -->
-                    <iframe 
-                        src="https://www.youtube.com/embed/videoseries?list=PLIWi-QKvJ6yLXTVCPkVPMM2foYy9PNLIx" 
-                        title="YouTube video player - Loomee Episodes" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen
-                        class="absolute top-0 left-0 w-full h-full">
-                    </iframe>
+                
+                <!-- ROW 1: Main Video (Full Width) -->
+                <div class="mb-8">
+                    <h3 class="text-xl sm:text-2xl font-bold text-loomee-green mb-2 text-center">Intro video</h3>
+                    <div class="relative rounded-xl overflow-hidden shadow-lg border-4 border-loomee-yellow" style="padding-top: 56.25%;">
+                        <!-- 
+                           PLAYLIST EMBED:
+                           Replace 'PLxxxxxxxx' with your actual YouTube Playlist ID.
+                        -->
+                        <iframe 
+                            src="https://www.youtube.com/embed/4LJP1ZO37zE?si=polUH8S68yOyIl1M" 
+                            title="Meet Loomee Firefly" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            class="absolute top-0 left-0 w-full h-full">
+                        </iframe>
+                    </div>
+                </div>
+
+                <!-- ROW 2: 3 Smaller Videos (1/3 Width each on tablet/desktop) -->
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                    
+                    <!-- Video 2 Item -->
+                    <div class="flex flex-col">
+                        <h4 class="text-lg font-bold text-loomee-black mb-2 text-center">Ep1 - Patience</h4>
+                        <div class="relative rounded-xl overflow-hidden shadow-md border-2 border-loomee-green w-full" style="padding-top: 56.25%;">
+                            <!-- Replace 'VIDEO_ID_1' with actual video ID -->
+                            <iframe 
+                                src="https://www.youtube.com/embed/1f1ikCaLTSk?si=YTDxJ6OJSSl_AesD" 
+                                title="Loomee Firefly - Patience" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen
+                                class="absolute top-0 left-0 w-full h-full">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Video 3 Item -->
+                    <div class="flex flex-col">
+                         <h4 class="text-lg font-bold text-loomee-black mb-2 text-center">Ep2 - Kindness</h4>
+                         <div class="relative rounded-xl overflow-hidden shadow-md border-2 border-loomee-green w-full" style="padding-top: 56.25%;">
+                             <!-- Replace 'VIDEO_ID_2' with actual video ID -->
+                             <iframe 
+                                src="https://www.youtube.com/embed/HtempwMJz90?si=YbFT4Fuits4RmYuQ" 
+                                title="Loomee Firefly - Kindness" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen
+                                class="absolute top-0 left-0 w-full h-full">
+                            </iframe>
+                        </div>
+                    </div>
+
+                    <!-- Video 4 Item -->
+                    <div class="flex flex-col">
+                         <h4 class="text-lg font-bold text-loomee-black mb-2 text-center">Ep3 - Thankful</h4>
+                         <div class="relative rounded-xl overflow-hidden shadow-md border-2 border-loomee-green w-full" style="padding-top: 56.25%;">
+                             <!-- Replace 'VIDEO_ID_3' with actual video ID -->
+                             <iframe 
+                                src="https://www.youtube.com/embed/6b0yDmib3C0?si=5r0n3pO3wg7-ox5T" 
+                                title="Loomee Firefly - Thankful" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen
+                                class="absolute top-0 left-0 w-full h-full">
+                            </iframe>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
-            
+            <!-- Call to Action (CTA) Section -->
+            <section class="text-center p-4 sm:p-6 rounded-xl border-2 border-loomee-yellow bg-yellow-50 shadow-md">
+                <h3 class="text-3xl sm:text-4xl font-bold text-loomee-black mb-3">
+                    Don't miss the next episode!
+                </h3>
+                <p class="text-lg sm:text-xl text-loomee-black mb-6">
+                    Travel with Loomee on her adventures and learnings. Subscribe to our official YouTube channel below.
+                </p>
+                
+                <a 
+                    href="https://www.youtube.com/@LoomeeTV" 
+                    target="_blank" 
+                    rel="noopener"
+                    class="inline-block bg-loomee-green text-white text-xl sm:text-2xl font-bold py-4 px-10 rounded-full shadow-lg transform transition-transform hover:scale-105 hover:bg-loomee-green-dark focus:outline-none focus:ring-4 focus:ring-yellow-300">
+                    
+                    <!-- Simple YouTube Icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline-block mr-2 -mt-1" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0C.515 3.428.188 5.7.188 12s.327 8.572 3.829 8.816c3.6.245 11.626.246 15.23 0C23.485 20.572 23.812 18.3 23.812 12s-.327-8.572-4.197-8.816zM9.75 15.6V8.4l6.138 3.6-6.138 3.6z"/>
+                    </svg>
+                    LoomeeTV
+                </a>
+            </section>
 
         </main>
 
@@ -180,7 +251,7 @@
             </div>
 
             <p class="text-base text-gray-800 font-semibold">&copy; 2025 SASY LLC. All rights reserved.</p>
-            <p class="text-base text-gray-800">contactLoomee@gmail.com</p>
+            <p class="text-base text-gray-800">LoomeeFirefly@gmail.com</p>
         </footer>
 
     </div>
